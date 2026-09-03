@@ -1,13 +1,9 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
+# Ignorar arquivos compilados do Java
+*.class
+# Ignorar pastas geradas por IDEs (VS Code, IntelliJ, Eclipse)
+.idea/
 *.iml
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+out/
+# Ignorar pastas de build e dependências locais
+bin/
+target/
