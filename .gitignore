@@ -2,7 +2,7 @@
 *.class
 # Ignorar pastas geradas por IDEs (VS Code, IntelliJ, Eclipse)
 .idea/
-.iml
+*.iml
 out/
 # Ignorar pastas de build e dependências locais
 bin/
